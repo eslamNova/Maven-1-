@@ -9,9 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>ALIEN OWL</title>
     </head>
     <body>
         <h1>Hello World!</h1>
+        <h1>alien owl moon </h1>
+        <h1>allah</h1>
+        <p>
+            It is now 
+            <%= new java.util.Date() %>
+        </p>
+        <p>
+            You are coming from 
+            <%= request.getRemoteAddr() %>
+        </p>
     </body>
 </html>
